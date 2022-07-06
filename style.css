@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    opacity: 90%;
+    opacity: 85%;
 }
 .divtext{
     text-align: center;
@@ -60,4 +60,36 @@ input{
     border: 0ch;
     font-size: large;
     color: gray;
+}
+.flex-div2{
+    font-size: 25px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px ;
+    text-align: left;
+}
+#food{
+    background-color:rgb(211, 222, 235);
+}
+#shelter{
+    background-color:rgb(252, 222, 222);
+}
+#education{
+    background-color:rgb(236, 185, 217);
+}
+footer{
+    background-color: rgb(22, 22, 31);
+    height: 100px;
+    /* color: tomato; */
+    text-align: center;
+    padding:45px;
+}
+.fheading{
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}
+.fparagaraph{
+    color: white;
 }
