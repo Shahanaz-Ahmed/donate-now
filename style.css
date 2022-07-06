@@ -1,12 +1,63 @@
 body{
-    font-family: 'Lato', sans-serif;
-/* font-family: 'Poppins', sans-serif; */
-    text-align: center;
-    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
 }
 .banner{
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    height: 700px;
+    opacity: 90%;
+}
+.divtext{
+    text-align: center;
+    padding: 50px 50px;
+    color: black;
+}
+.divtext h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+.divtext p{
+    font-size: 20px;
+}
+.ban{
+    color: white;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 77, 71);
+    padding: 15px 25px;
+    border-radius: 5%;
+    font-size: 20px;
+}
+.flexible-container{
+    display: flex;
+}
+.flex-div{
+    font-size: 25px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px ;
+    background-color: rgb(245, 241, 241);
+    color: gray;
+}
+#unique-one{
+    color: tomato;
+    background-color:rgb(252, 222, 222);
+    border-style: solid;
+    border-color: crimson;
+}
+hr{
+    color: rgb(129, 124, 124);
+    width: 50%;
+}
+input{
+    border: 0ch;
+    font-size: large;
+    color: gray;
 }
