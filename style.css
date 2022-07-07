@@ -102,20 +102,19 @@ footer{
 }
 form{
     margin-top: 20%;
-    background-color: antiquewhite;
+    background-color: rgb(252, 242, 229);
     padding: 100px 250px;
     align-items: center;
     display: inline;
 }
 .btn{
-    background-color: tomato;
+    background-color: rgb(252, 111, 86);
     border: none;
     padding: 20px 40px;
     color: white;
-    border-radius: 5%;
+    border-radius: 0px 8px 8px 0px;
     display: inline;
     margin: 0;
-    float: initial;
 }
 .mail{
    border: none; 
@@ -123,7 +122,9 @@ form{
    background-color: rgb(221, 214, 214);
    color: gray;
    outline: none;
-   margin:0;
+   margin:-6px;
+   border-radius: 8px 0px 0px 8px; /*top left top right bottom right bottom left */
+   display: inline;
 }
 .icon{
     height: 50px;
