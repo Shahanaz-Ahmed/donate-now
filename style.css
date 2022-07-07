@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 .banner{
@@ -11,12 +11,13 @@ body{
 }
 .divtext{
     text-align: center;
-    padding: 50px 50px;
+    padding: 90px 50px;
     color: black;
 }
 .divtext h1{
-    font-weight: 700;
-    font-size: 70px;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 3px;
 }
 .divtext p{
     font-size: 20px;
@@ -71,13 +72,13 @@ hr{
     text-align: left;
 }
 #food{
-    background-color:rgb(211, 222, 235);
+    background-color:rgb(226, 235, 245);
 }
 #shelter{
-    background-color:rgb(252, 222, 222);
+    background-color:rgb(253, 240, 240);
 }
 #education{
-    background-color:rgb(236, 185, 217);
+    background-color: rgb(252, 239, 223);
 }
 footer{
     background-color: rgb(22, 22, 31);
@@ -97,7 +98,7 @@ footer{
     text-align: center;
 }
 .form-div h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 form{
     margin-top: 20%;
@@ -112,8 +113,9 @@ form{
     padding: 20px 40px;
     color: white;
     border-radius: 5%;
-    /* display: inline; */
+    display: inline;
     margin: 0;
+    float: initial;
 }
 .mail{
    border: none; 
@@ -147,5 +149,6 @@ form{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 50px;
+    font-size: 40px;
+    
 }
