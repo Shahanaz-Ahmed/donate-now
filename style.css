@@ -99,9 +99,6 @@ footer{
 .form-div h1{
     font-size: 70px;
 }
-/* .get-update{
-    text-align: center;
-} */
 form{
     margin-top: 20%;
     background-color: antiquewhite;
@@ -115,7 +112,7 @@ form{
     padding: 20px 40px;
     color: white;
     border-radius: 5%;
-    display: inline-block;
+    /* display: inline; */
     margin: 0;
 }
 .mail{
@@ -123,7 +120,32 @@ form{
    padding: 20px 40px;
    background-color: rgb(221, 214, 214);
    color: gray;
-   display: inline-block;
    outline: none;
    margin:0;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.flex-div3{
+    font-size: 25px;
+    box-shadow: 10px 10px 40px grey;
+    border-top: 20px solid tomato;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px ;
+    text-align: left;
+}
+.event-iamge{
+    height: 300px;
+    width: 300px;
+    padding-left: 10px; 
+}
+.events{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 50px;
 }
